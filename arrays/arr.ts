@@ -1,16 +1,16 @@
 //--------Arrays------------ SYNTAX: const arrName = []
 //collection of data ,used multiple values in a single variable.
 //EXAMPLES:
-const student = ["shoaib","azam","nawaz"];
+const student = ["shoaib","azam","nawaz"]; //yahan hum string, num, boolean kuch bhi rakhsakte hai
 console.log("students:", student);
 const numbers = [5,20,60];
 const booleans = [true,false,false];
 console.log(`student names are ${student},and their marks are ${numbers}, result ${booleans}`)
 
 //-------limitation in arrays:----
-let newArray:string[] = ["shoaib","azam","hammad"];
-let arr2:number[] = [1,2,3,4,5,6];
-let arr3:boolean[] = [true,false];
+let newArray:string[] = ["shoaib","azam","hammad"]; //yahan limitation lagi hai hum serif string add karsakte hai nothig else
+let arr2:number[] = [1,2,3,4,5,6]; // will be add only numbers
+let arr3:boolean[] = [true,false]; // will be add only boolean values.
 console.log("names", newArray);
 //--union operator (pipe sign wala)
 let arrayU:(string|number)[] = ["shoaib",20,"maria",80]; // string or num kay elawa kuch bhi nhi asakta
