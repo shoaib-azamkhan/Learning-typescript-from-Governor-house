@@ -1,5 +1,6 @@
-//--------Arrays------------ const arrName = []
-//collection of data , used multiple values in a single variable.
+//--------Arrays------------ SYNTAX: const arrName = []
+//collection of data ,used multiple values in a single variable.
+//EXAMPLES:
 const student = ["shoaib","azam","nawaz"];
 console.log("students:", student);
 const numbers = [5,20,60];
