@@ -40,21 +40,21 @@ indArray.pop();//"pop: will del last index nawaz"
 indArray.shift();//"shift: will del first index raju"
 console.log(indArray);
 
-//5---splice------- (first index then , del count)
+//5---splice------- (first for starting index  & after , del num count (how many elems you wanna del) you may del mor elem)
 const boys =["shoaib","azam","raju","maria"]
 console.log("original array of boys:",boys);
-boys.splice(1,1);      //azam will be delete
-console.log("boys azam will delete:",boys);
+
+console.log("boys azam will delete:",boys.splice(1,1));    //azam will be delete
 
 boys.splice(1,2);  //first starting index kay liya then , kitne del karwane hai wo count
 console.log("boys:",boys);
 
-boys.splice(1,0,"nawaz"); //array mai splice del karne kay baat add b karsate hai coma de kay multiple elements add karsakte hai
+boys.splice(1,0,"nawaz"); //array mai splice del karne kay baat add b karsate hai comma de kay multiple elements add karsakte hai
 console.log(boys);
 
 //6---slice------- 
 
-//-------------tuples-------------limition 
+//-------------tuples-------------limitation 
 type Fruits = [string,string,string]; //3 string liya hai matlb 3 say nah zadah na kam ayange elements
 const fruit:Fruits =["apple","mango","cherry"]
 console.log("fruit:",fruit);
