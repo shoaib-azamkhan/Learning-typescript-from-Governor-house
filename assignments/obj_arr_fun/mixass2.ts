@@ -4,18 +4,19 @@
           
 //         ------Task 1: Create a program that manages a simple friend list.---
 // i. Define an object named people containing an empty array called friends.
-type Friends ={
-    //friends: string[]
-    firstName:string;
-    lastName:string;
-    Id?:number;
-}
+
 let people ={
     friends:[],
 };
 
 // ii. Create three separate objects, each representing a friend, with properties like firstName,
 //lastName, and optionally id.
+type Friends ={
+    //friends: string[]
+    firstName:string;
+    lastName:string;
+    Id?:number;
+};
 let friend1:Friends ={
     firstName:"shoaib",
     lastName:"azam",
