@@ -25,6 +25,7 @@ let friend1:Friends ={
 let friend2:Friends={
      firstName:"sher",
      lastName:"azam",
+     Id:2468,
      
 };
 let friend3:Friends={
