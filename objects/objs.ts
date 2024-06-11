@@ -89,7 +89,7 @@ type Cars={
     model:string;
     year:number;
     powerStaring:boolean;
-    owner?:string;       //owner field is optional
+    owner?:string;//owner field is optional meains you have your on choice that you can use/add idNum in oject or not 
 }
 let myCar:Cars={
         name:"honda Civic",
