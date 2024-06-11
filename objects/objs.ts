@@ -49,13 +49,14 @@ let employee: {name:string, age:number,email:string,result:boolean}={
     age: 24,
     email: "shahid@gmail.com",
     result:true,
-    //class:"typescript",
+    //class:"typescript",  class uper type mai add hi nhi kiya hai tou is mai error show kardega
 }
 console.log("employee object ",employee);
 //------apni alag say type bana sakte hai type ka use karkay... bydefault mai string,num,bool--------
 //alag say kiun banate hai?kiun ki ya uper ak object hai humne is kay under hi banaliya, jab ak se zadah objs honge tab kya karoge sub
 // sub kay liya alag alag types define karoge kya. tou ak hi type banakar uskay name ko kise b obj mai rakhange
    //----type ka key word camale case hota hai yani fist latter capital----
+   //type ki properties kay akher mai simicolon; dete hai jabki obj mai , comma
 type Employee ={
     name:string;
     age:number;
