@@ -224,21 +224,21 @@ const boy = {
 // greet()
 boy.callName();
 
-//aik object kay under 2 types bhi rakhsakte hai  & urdu wala or de kay
+//aik object kay under 2 types bhi rakhsakte hai  & urdu wala or de kay ya use kar k
 //union (pipe) | or operator 
 //aik mai dono dena must hai aik mai marzi hai
 type Intersection1={
     name:string,
     age:number,
     dob:number;
-}
+};
 type Intersection2={
     name:string;
     ismale:boolean;
-}
-let intersection:Intersection1 & Intersection2{
+};
+let intersection:Intersection1 & Intersection2={
     name:"shoaib azam",
     age:22,
     dob:2002,
-    male:true,
+    ismale:true,
 }
