@@ -61,7 +61,7 @@ type Employee ={
     name:string;
     age:number;
     isAdmin:boolean;
-}
+};
 let employee1:Employee={
     name:"shoaib",
     age:34,
