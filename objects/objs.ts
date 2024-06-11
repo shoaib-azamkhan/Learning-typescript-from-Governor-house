@@ -104,7 +104,7 @@ let yourCar:Cars={
     model:" 2020",
     year:2024,
     powerStaring:true,
-    // owner:"raju",
+     owner:"raju",
 
 };
 // keys ko hum change bhi karsakte hai
@@ -114,13 +114,15 @@ yourCar.model="2022"
 
 console.log("your Car",yourCar);
 console.log("my Car",myCar);
-//---------------------
+
+//---------------------union type (type alias)----------
 type ModelNumber= number|  string | boolean;     //union type
 // type Cars={
 //     name:string;
-//     model:ModelNumber;             //here we are saying that model can be either a
-//     powerStraing:boolean;          //number or a string or a
+//     model:ModelNumber;//here we are saying that model can be either a number or a string or a boolean
+//     powerStraing:boolean;          
 //}
+
 // let ModelNumber:ModelNumber="2019";   //assigning string
 //     {name:"cultus",
 //     model:2019,                      //giving number to model
@@ -128,7 +130,7 @@ type ModelNumber= number|  string | boolean;     //union type
 
 // };
 
-//09-05-24
+//------09-05-24----
 // type Product={
 //   title:string;
 //   desc:string;
