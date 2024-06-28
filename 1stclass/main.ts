@@ -5,6 +5,11 @@ console.log(message);
 //variables:
                   //let,const and var
                   let myLetVariable = 'I am a let';
+                  const myConstVariable = 'I am a const';
+                  var myVarVariable = 'I am a var';
+         console.log(`let: ${myLetVariable} const: ${myConstVariable} var: ${myLetVariable}`)
+
+
                 //we can change the value of let but can't change the value of const
                 //let and const are part of ES6 and both are braces scoped  i.e., they only exist within the cur
                 //var is not recommended to use in ES6 because it has function scope not block scope unlike let and or var and var
